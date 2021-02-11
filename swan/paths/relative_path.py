@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 
-def realitive_path_match_phase(match: str) -> str:
+def relative_path_match_phase(match: str) -> str:
     module_path = os.path.abspath(os.path.join('..'))
     path = Path(module_path)
 
